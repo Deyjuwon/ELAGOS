@@ -667,6 +667,9 @@ footer .copyright{
     #hero {
         padding: 0 20px;
         background-position: 55%;
+        background-image: none;
+        text-align: center;
+        align-items: center;
         
     }
 
@@ -717,4 +720,11 @@ footer .copyright{
     h2 {
         line-height: 35px;
     }
+
+    #mobile i {
+        color: #000;
+        text-decoration: none;
+        
+    }
+
 }
