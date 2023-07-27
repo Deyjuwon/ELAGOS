@@ -700,16 +700,18 @@ footer .copyright{
         width: 100%;
     }
     #features img {
-        width: 100%;
+        width: 50%;
         
     }
 
     #features {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         padding-top: 40px;
         align-items: flex-start;
         text-align: center;
-        gap: 10px;
+        gap: 20px;
+        justify-content: center;
+        padding: 30px 20px;
     }
 
     h2 {
