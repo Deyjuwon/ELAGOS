@@ -693,8 +693,26 @@ footer .copyright{
     #banner3 .banner-box {
         width: 100%;
     }
-    #newsletter {padding: 40px 20px;}
+    #newsletter {
+        padding: 40px 20px;
+    }
     #newsletter .form {
         width: 100%;
+    }
+    #features img {
+        width: 100%;
+        
+    }
+
+    #features {
+        flex-wrap: nowrap;
+        padding-top: 40px;
+        align-items: flex-start;
+        text-align: center;
+        gap: 10px;
+    }
+
+    h2 {
+        line-height: 35px;
     }
 }
