@@ -727,7 +727,10 @@ footer .copyright{
 
     }
 
-    #footer.section-p1 {
+    footer.section-p1 {
         padding: 40px 40px;
     }
+    /* .section-p1 {
+        padding: 40px 30px;
+    } */
 }
