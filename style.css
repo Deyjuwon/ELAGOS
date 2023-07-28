@@ -724,7 +724,10 @@ footer .copyright{
     #mobile i {
         color: #000;
         text-decoration: none;
-        
+
     }
 
+    #footer.section-p1 {
+        padding: 40px 40px;
+    }
 }
