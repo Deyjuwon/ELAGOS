@@ -245,9 +245,12 @@ button.normal:hover {
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #b0bcf5;
+    /* background-color: #b0bcf5;
+    background-color: gray; */
+    background-color: transparent;
     color: #080808;
-    border: 1px solid #b0bcf5;
+    color: #1073E5;
+    border: 1px solid #AFD5EB;
     position: absolute;
     bottom: 20px;
     right: 10px;
@@ -560,7 +563,6 @@ footer .copyright{
     background-color: #4125db;
     text-align: center;
     height: 40vh;
-    /* padding-top: 20px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -753,4 +755,10 @@ footer .copyright{
     /* .section-p1 {
         padding: 40px 30px;
     } */
+
+    #page-header {
+        height: 25vh;
+
+
+    }
 }
