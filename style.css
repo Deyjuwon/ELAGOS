@@ -554,6 +554,26 @@ footer .copyright{
     text-align: center;
 }
 
+/* Shop page */
+
+#page-header {
+    background-color: #4125db;
+    text-align: center;
+    height: 40vh;
+    /* padding-top: 20px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#page-header > h2,
+#page-header > p {
+    color: #fff;
+    color: gainsboro;
+}
+
 
 @media (max-width:820px) {
     #navbar { 
