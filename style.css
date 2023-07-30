@@ -642,7 +642,15 @@ footer .copyright{
 }
 
 #prodetails .single-prodetails button {
-    height: 47px;
+    height: 45px;
+    /* background: #000;
+    padding-top: 0;
+    padding-bottom: 0; */
+}
+
+#prodetails .single-prodetails button:hover {
+    background: #000;
+    color: #fff;
 }
 
 #prodetails .single-prodetails input:focus {
