@@ -844,6 +844,7 @@ footer .copyright{
     #prodetails {
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
 
     #prodetails .single-pro-image {
