@@ -152,11 +152,6 @@
         </div>
     </section>
 
-    <section id="pagination" class="section-p1">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
-    </section>
 
 
     <section id="newsletter" class="section-p1 section-m1">
@@ -216,6 +211,25 @@
             <p>Copyright © 2023. Adejuwon Oshindoro. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        let MainIMg = document.getElementById("mainImg");
+        let smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function(){
+            MainIMg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            MainIMg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            MainIMg.src = smallImg[2].src;
+        }
+
+        smallImg[3].onclick = function () {
+            MainIMg.src = smallImg[3].src;
+        }
+    </script>
 
 
 

@@ -839,4 +839,19 @@ footer .copyright{
 
 
     }
+
+    /* single product */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-prodetails {
+        width: 100%;
+    }
 }
